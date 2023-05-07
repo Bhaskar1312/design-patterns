@@ -9,11 +9,11 @@ public class HeatIndexDisplay implements Observer, DisplayElement {
         this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
-    @Override
-    public void update(float temperature, float humidity, float pressure) {
-        this.heatIndex = computeHeatIndex(temperature, humidity);
-        display();
-    }
+    // @Override
+    // public void update(float temperature, float humidity, float pressure) {
+    //     this.heatIndex = computeHeatIndex(temperature, humidity);
+    //     display();
+    // }
 
     @Override
     public void display() {
@@ -30,5 +30,12 @@ public class HeatIndexDisplay implements Observer, DisplayElement {
             0.000000000843296 * (t * t * rh * rh * rh)) -
             (0.0000000000481975 * (t * t * t * rh * rh * rh)));
         return index;
+    }
+
+
+    @Override
+    public void update() {
+        this.heatIndex = computeHeatIndex(weatherData.getTemperature(), weatherData.getHumidity());
+        display();
     }
 }

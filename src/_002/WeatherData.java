@@ -22,7 +22,8 @@ public class WeatherData implements Subject {
     @Override
     public void notifyObservers() {
         for(Observer o: observers) { // we tell all observers here, we know they all implement update(), so we know how to notify them
-            o.update(temperature, humidity, pressure);
+            // o.update(temperature, humidity, pressure); // for push based
+            o.update();
         }
     }
 
@@ -43,5 +44,18 @@ public class WeatherData implements Subject {
         measurementsChanged();
     }
     //other WeatherData methods here
+
+    // getters for pull-based
+    public float getTemperature() {
+        return temperature;
+    }
+
+    public float getHumidity() {
+        return humidity;
+    }
+
+    public float getPressure() {
+        return pressure;
+    }
 
 }
