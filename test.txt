@@ -1,0 +1,1 @@
+This is for testing LowerCase Input stream which is written using decorator pattern
