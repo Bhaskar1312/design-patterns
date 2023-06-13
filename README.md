@@ -7,3 +7,4 @@ original - https://github.com/bethrobson/Head-First-Design-Patterns
 002 - Observer - push, pull-based
 003 - Decorator
 004 - factory - simple, multiple, abstractFactory
+005 - singleton, double-checked volatile synchronized, enum
