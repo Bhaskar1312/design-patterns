@@ -12,3 +12,4 @@ original - https://github.com/bethrobson/Head-First-Design-Patterns
 007 - Adapter - turkey wrapped in duck, Duck adapter
     - facade - home theater
 008 - template - simple barista, barista with template, hook
+009 - iterator
