@@ -11,3 +11,4 @@ original - https://github.com/bethrobson/Head-First-Design-Patterns
 006 - Command - simpleRemoteControl for lights, garageDoor; RemoteControl with multiple clients; undo; Macro
 007 - Adapter - turkey wrapped in duck, Duck adapter
     - facade - home theater
+008 - template - simple barista, barista with template, hook
