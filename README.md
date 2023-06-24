@@ -13,4 +13,4 @@ original - https://github.com/bethrobson/Head-First-Design-Patterns
     - facade - home theater
 008 - template - simple barista, barista with template, hook
 009 - iterator, composite
-010 - State
+010 - State - conditionals, state, stateWinner,refill
