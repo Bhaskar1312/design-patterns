@@ -14,4 +14,4 @@ original - https://github.com/bethrobson/Head-First-Design-Patterns
 008 - template - simple barista, barista with template, hook
 009 - iterator, composite
 010 - State - conditionals, state, stateWinner,refill
-011 - proxy 
+011 - proxy - simplermi, remoteproxy - not working
