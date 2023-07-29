@@ -16,5 +16,6 @@ original - https://github.com/bethrobson/Head-First-Design-Patterns
 009 - iterator, composite
 010 - State - conditionals, state, stateWinner,refill
 011 - proxy - simplermi, remoteproxy - not working, virtualProxy?, dynamicProxy
+012 - compound patterns - mvc, heart - one view not working well
 
 ```
